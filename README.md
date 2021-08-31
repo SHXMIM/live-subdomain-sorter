@@ -41,6 +41,18 @@ fmt.Printf("Hello world!\n")
 ```
 go run helloworld.go
 ```
+### assetfinder installation
+
+```
+go get -u github.com/tomnomnom/assetfinder
+```
+###httprobe installation
+
+```
+▶ go get -u github.com/tomnomnom/httprobe
+```
+
+
 ### live-subdomain-sorter installation
 
 ```
