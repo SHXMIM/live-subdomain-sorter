@@ -6,9 +6,11 @@ This is a tool is helps to find the subdomains of a domain and sort the live sub
 
 ### go installation
 
-```
-https://golang.org/dl/go1.17.linux-amd64.tar.gz
-```
+### Download and Install
+
+#### Binary Distributions
+
+Official binary distributions are available at https://golang.org/dl/.
 ```
 cd /root/Downloads
 ```
