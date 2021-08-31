@@ -4,6 +4,43 @@ This is a tool is helps to find the subdomains of a domain and sort the live sub
 
 ### Usage
 
+### go installation
+
+```
+https://golang.org/dl/go1.17.linux-amd64.tar.gz
+```
+```
+cd /root/Downloads
+```
+```
+tar -C /usr/local/ -xzf go1.13.6.linux-amd64.tar.gz
+```
+```
+vim ~/.bashrc
+```
+```
+export GOPATH=/root/go-workspace
+export GOROOT=/usr/local/go
+PATH=$PATH:$GOROOT/bin/:$GOPATH/bin
+```
+```
+source ~/.bashrc
+```
+```
+vim helloworld.go
+```
+```
+package main
+import "fmt"
+func main() {
+fmt.Printf("Hello world!\n")
+}
+```
+```
+go run helloworld.go
+```
+### live-subdomain-sorter installation
+
 ```
 git clone https://github.com/SHXMIM/live-subdomain-sorter.git
 ```
